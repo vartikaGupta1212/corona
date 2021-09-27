@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+
+
+}
+
+button{
+  width:100%;
+  padding:14px;
+  text-align:left;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom:8px;
+  border: 3px solid green;
+  display: inline-block;
+
+
+}
+.animate-icon {
+  transition: 0.4s;
+}
+.rotate {
+  transform:rotate(180deg);
+}
+#main{
+  margin: auto;
+  width: 60%;
+}
+
+#arrow{
+  float: right !important;
+}
+.answer{
+  border:2px solid grey;
+  padding: 15px;
+}
+#myDIV1{
+  display: none;
+}
+#myDIV2{
+  display: none;
+}
+#myDIV3{
+  display: none;
+}
+#myDIV4{
+  display: none;
+}
+#myDIV5{
+  display: none;
+}
+
+.thermo img{
+
+  width: 15%;
+  height: 15%;
+  transform: rotate(60deg);
+  z-index: -1;
+}
+.quar h1,h2,{
+  font-weight: bold;
+color:green !important;
+}
+
+.quar h1{
+  text-align: center !important;
+}
+.quar{
+  margin-left: 60px;
+  margin-right: 50px;
+  color: darkgreen;
+}
+.down{
+  margin-left: 60px;
+  margin-bottom: 50px;
+  text-align: justify;
+  margin-right: 40px;
+
+}

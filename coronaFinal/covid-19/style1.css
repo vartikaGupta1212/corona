@@ -1,0 +1,27 @@
+.nav-style{
+          background-color: #     !important;
+}
+.nav_style a{
+color:white;
+}
+html{
+scroll-behavior:smooth;
+}
+#myBtn{
+  display:none;
+  position:fixed;
+  bottom:30px;
+  right:40px;
+  z-index:99;
+  border:none;
+  outline: none;
+  background-color: #00A8FF;
+  color: white;
+  cursor:pointer;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+#myBtn:hover{
+  background: #606060;
+}

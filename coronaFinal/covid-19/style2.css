@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+text-transform: capitalize;
+
+}
+
+
+.header{
+  width:100%;
+  height: 100vh;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  clip-path:polygon(100% 0%,100% 75% ,50% 100%,0 75%, 0 0);
+  position: relative;
+  overflow-x: hidden;
+ }
+ .center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+    left: 35%;
+    transform: translateX(-50%,-50%);
+    -ms-transform:translateX(-50%,-50%);
+    -webkit-transform:translateX(-50%,-50%);
+ }
+
+ p{
+   font-size: 0.9em;
+   line-height: 1.6;
+   font-weight: 400;
+ }
+ .header-buttons: a{
+   border: 1px solid #fff;
+   border-radius: 100px;
+   margin: 0 5px;
+   padding: 12px 35px;
+   outline:none;
+    color: #fff;
+    font-size: 1 rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+ }
+ .header-buttons a :hover{
+   color: #50d1c0;
+
+   text-decoration: none;
+   box-shadow: 0 0 20px 0 rbga(0,0,0,0.3);
+ }
+
+
+ .extra-div{
+
+   background:blue;
+   border: 5px solid purple;
+   padding:50px 50px !important;
+   border-radius: 3px;
+   transition: 0.3s;
+   margin-right: 80px;
+  color:white !important;
+   height:210px !important;
+   width:200px !important;
+   text-align: center;
+
+
+
+
+}
+.extra-div:hover{
+  box-shadow: 0 0 20px 0 rbga(0,0,0,0.3);
+  transform: translateY(-20px);
+}
+.extra{
+  position: absolute;
+  left: -400px !important;
+  bottom: -336px !important;
+  width:80%;
+
+}
+.virus{
+  width: 100px;
+  height: 100px;
+  animation: virus 3s linear infinite;
+}
+@keyframes virus{
+  0%{transform: rotate(0);}
+  100%{transform: rotate(360deg);}
+}
+.prevention{
+  background-color: blue;
+  overflow: hidden;
+}

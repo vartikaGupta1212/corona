@@ -1,0 +1,7 @@
+.s{
+  background: url('prevention.png');
+  z-index: -100;
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+}
